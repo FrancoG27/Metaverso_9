@@ -1,0 +1,66 @@
+.body {
+    body {
+        background-color:aquamarine;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+}
+
+.inicio_sesion {
+    background-color: rgb(142, 127, 243);
+}
+
+.imagen_usuario {
+    width: 15px;
+    height: 15px;
+}
+
+.navbar {
+    background-color: transparent; 
+}
+
+.imagen_fondo {
+    position: relative;
+    z-index: -1;
+}
+
+.descripcion {
+    z-index: 1;
+    font-style: italic;
+}
+
+textarea {
+    width: 100%;
+
+}
+
+:root {
+    --max: 18rem
+}
+
+.card-img-top {
+    width: 100%;
+    max-width: var(--max);
+    height: calc(var(--max));
+    object-fit: contain;
+}
+
+.carousel-img {
+    max-width: 100%;
+    max-height: 300px; 
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+/* Texto blanco */
+.navbar .nav-link {
+    color: rgb(201, 188, 188);
+}
+
+/* Agregar sombra en el navbar cuando se desplaza */
+.navbar.scrolled {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
